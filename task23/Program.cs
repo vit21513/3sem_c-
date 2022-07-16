@@ -16,7 +16,6 @@ void SquareTable(int n)
 
     while (i <= n)
     {
-        Console.WriteLine(" --------");
         Console.WriteLine($"| {i} | {i * i * i,2} |");
         i++;
     }
