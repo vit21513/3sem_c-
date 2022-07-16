@@ -8,15 +8,15 @@
 
 Console.WriteLine("Введите пятизначное число");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number>9999 && number< 100000)
+if (number > 9999 && number < 100000)
 {
-   if ((number/10000) %10 == (number) %10 && (number/10) % 10 == (number/1000) %10)
+    if ((number / 10000) % 10 == (number) % 10 && (number / 10) % 10 == (number / 1000) % 10)
 
-   {Console.WriteLine($" Число {number} является палиндромом");}
-   else
-   {
-    Console.WriteLine($" Число {number} не  является палиндромом"); 
-   }
+    { Console.WriteLine($" Число {number} является палиндромом"); }
+    else
+    {
+        Console.WriteLine($" Число {number} не  является палиндромом");
+    }
 
 }
-else {Console.WriteLine("Число некорректное");}   
+else { Console.WriteLine("Число некорректное"); }
