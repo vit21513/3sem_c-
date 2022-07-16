@@ -12,8 +12,9 @@ Console.Write("y: ");
 int y1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("z: ");
 int z1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координаты второй точки  ");
 
+
+Console.WriteLine("Введите координаты второй точки  ");
 Console.Write("X: ");
 int x2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("y: ");
